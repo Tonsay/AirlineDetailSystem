@@ -12,6 +12,8 @@ namespace AirlineDL
 {
     public class InfoDL
     {
+        internal string? passenger;
+
         public Info GetBookingInfo()
         {
             return new Info { passenger = "Jeff Satur", classtype = "First Class" ,seatnum = "01",origin = "Thailand", destination = "Philippines", flightdate = DateTime.Now };
