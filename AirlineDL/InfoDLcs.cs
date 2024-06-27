@@ -12,7 +12,7 @@ namespace AirlineDL
 {
     public class InfoDL
     {
-        internal string? passenger;
+        internal string passenger;
 
         public Info GetBookingInfo()
         {

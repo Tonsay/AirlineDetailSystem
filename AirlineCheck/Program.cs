@@ -12,7 +12,7 @@ namespace AirlineCheck
 
         static void Main(string[] args)
         { 
-             SqlDBInfo.UpdateInfo("Maria Loreen","0010");
+             SqlDBInfo.UpdateInfo("Yoon Jeonghan","0012");
              GetInfo();
 
             // SqlDBInfo.Connect();

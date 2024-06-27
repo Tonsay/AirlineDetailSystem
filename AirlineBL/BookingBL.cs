@@ -3,7 +3,7 @@ namespace AirlineBL
 {
     public class BookingBL
     {
-        public bool VerifyBookings(string ticketnum)
+        public bool VerifyBookings(string ticketnum, string userrname)
         {
             bool yoo = new bool();
             BookingDL dataService = new BookingDL();
